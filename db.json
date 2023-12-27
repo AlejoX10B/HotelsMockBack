@@ -1,0 +1,167 @@
+{
+  "users": [
+    {
+      "id": "51097ef1-50af-4386-83c9-50ad15c97f9d",
+      "email": "alejo@admin.com",
+      "password": "12345",
+      "name": "Alejandro",
+      "lastname": "Castañeda",
+      "role": "AGENT"
+    },
+    {
+      "id": "df58386a-ff1e-4164-b7c7-e0d9bdf69f54",
+      "email": "luisa@email.com",
+      "password": "12345",
+      "name": "Luisa",
+      "lastname": "Andrade",
+      "role": "AGENT"
+    },
+    {
+      "id": "b564db20-911f-4e2f-b65b-f85233767cfe",
+      "email": "adri@email.com",
+      "password": "12345",
+      "name": "Adriana",
+      "lastname": "Rojas",
+      "role": "USER"
+    },
+    {
+      "id": "a79d9069-c32a-4a5d-836b-543cb065eba0",
+      "email": "camilo@email.com",
+      "password": "12345",
+      "name": "Camilo",
+      "lastname": "Torres",
+      "role": "USER"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Lancaster House Suites",
+      "location": "Paralela Autonorte No. 106B - 28, Usaquén, 110010 Bogotá, Colombia",
+      "description": "Lorem ipsum dolor sit amet kasd dolor rebum sed delenit suscipit in labore eirmod et amet et sed gubergren at consetetur dolores hendrerit vel labore eirmod et ipsum dolores lorem molestie diam ut labore eu consetetur amet amet elitr elit eirmod in feugait kasd eirmod eos ut sit vero eos justo et sea no elitr erat dolor ad dolor dolor stet esse imperdiet dolor ipsum diam et labore sanctus nonumy sit et invidunt blandit tempor est sadipscing vel eum gubergren ipsum magna lorem consetetur enim ea ut exerci hendrerit dolore feugiat duis ipsum esse lorem volutpat elitr et justo clita amet dignissim vulputate eirmod et invidunt magna ut accusam clita ipsum ipsum et quis dolor elitr ut soluta accusam erat et consequat dolor ex sea eos ut et ipsum hendrerit rebum sanctus facilisis vel feugait eleifend iriure wisi et sit lorem amet vulputate dolor erat sed facilisis ullamcorper ipsum minim.",
+      "img_url": "https://lh3.googleusercontent.com/proxy/Tm0duzk41y7SIgzr1gu5b6v-gUBXf8u4wlPjpzDq0Cn_12cKh8NgDwY9vnLG9-PO7t01mPvLHO-Cie88di1mlDDFuuroU-ZfbR586uhqD1MNyD8H7IHeDAkyxUzv6XRIhln4LspGYBpQQa_kpRUDanS0k1ir_4c=w472-h352-n-k",
+      "score": 5,
+      "services": [
+        "WiFi",
+        "Parking",
+        "Room Service"
+      ],
+      "active": true,
+      "rooms": []
+    },
+    {
+      "id": 2,
+      "active": true,
+      "name": "Ikara Hotel Campestre Villeta",
+      "location": "Villeta-Guaduas Kilometro 5., 253410 Villeta, Colombia",
+      "description": "El Ikara Hotel Campestre Villeta se encuentra en Villeta y ofrece centro de fitness, jardín, salón compartido y restaurante. Además, hay WiFi gratuita y aparcamiento privado gratuito.\n\nEl hotel cuenta con mesa de ping pong. Es un sitio muy agradable con una cantidad de ambientes rurales por conocer...\n\nLorem ipsum dolor sit amet sadipscing sed sed luptatum eirmod ea aliquip dolor adipiscing facilisis facilisi ut tempor ut et labore sit nihil aliquyam vero gubergren invidunt magna et elitr gubergren amet accusam stet accumsan sanctus sit gubergren congue diam diam dolore sed et dolor sit sanctus facilisi dolores justo sanctus tincidunt et lorem amet et dolore takimata lorem nibh sanctus no sed at diam wisi et duo gubergren at odio sanctus ullamcorper consetetur lorem ipsum sanctus diam sadipscing diam diam vel commodo dolor invidunt dolor consequat amet stet ea consetetur ad kasd eos labore sit vero elit elit eleifend sit sanctus commodo vel lorem lorem accusam vero sanctus ipsum qui molestie rebum et lorem sadipscing nonumy diam diam no duo eu magna consetetur consequat elitr quis molestie gubergren dolor sanctus accusam sed tincidunt tation est lorem est ipsum invidunt ipsum et iriure luptatum sit sea amet esse facilisi in",
+      "img_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/302561068.jpg?k=9ff1922fc98c115f605428db97d89b733430015b5e5d83190660cbd6ee4660b8&o=&hp=1",
+      "score": 3,
+      "services": [
+        "WiFi",
+        "Piscina",
+        "Parqueadero",
+        "Jacuzzi",
+        "Sauna",
+        "Restaurante"
+      ],
+      "rooms": [
+        {
+          "active": true,
+          "kind": "double",
+          "location": "Cabaña A",
+          "description": "Lorem ipsum dolor sit amet kasd dolor rebum sed delenit suscipit in labore eirmod et amet et sed gubergren at consetetur dolores hendrerit vel labore eirmod et ipsum dolores lorem molestie diam ut labore eu consetetur amet amet elitr elit eirmod in feugait kasd eirmod eos ut sit vero eos justo et sea no elitr erat dolor ad dolor dolor stet esse imperdiet dolor ipsum diam et labore sanctus nonumy sit et invidunt blandit tempor est sadipscing vel eum gubergren ipsum magna lorem consetetur enim ea ut exerci hendrerit dolore feugiat duis ipsum esse lorem volutpat elitr et justo clita amet dignissim vulputate eirmod et invidunt magna ut accusam clita ipsum ipsum et quis dolor elitr ut soluta accusam erat et consequat dolor ex sea eos ut et ipsum hendrerit rebum sanctus facilisis vel feugait eleifend iriure wisi et sit lorem amet vulputate dolor erat sed facilisis ullamcorper ipsum minim.",
+          "cost": 380600,
+          "taxes": 12
+        },
+        {
+          "active": true,
+          "kind": "excecutive",
+          "location": "Cabaña B",
+          "description": "Lorem ipsum dolor sit amet kasd dolor rebum sed delenit suscipit in labore eirmod et amet et sed gubergren at consetetur dolores hendrerit vel labore eirmod et ipsum dolores lorem molestie diam ut labore eu consetetur amet amet elitr elit eirmod in feugait kasd eirmod eos ut sit vero eos justo et sea no elitr erat dolor ad dolor dolor stet esse imperdiet dolor ipsum diam et labore sanctus nonumy sit et invidunt blandit tempor est sadipscing vel eum gubergren ipsum magna lorem consetetur enim ea ut exerci hendrerit dolore feugiat duis ipsum esse lorem volutpat elitr et justo clita amet dignissim vulputate eirmod et invidunt magna ut accusam clita ipsum ipsum et quis dolor elitr ut soluta accusam erat et consequat dolor ex sea eos ut et ipsum hendrerit rebum sanctus facilisis vel feugait eleifend iriure wisi et sit lorem amet vulputate dolor erat sed facilisis ullamcorper ipsum minim.",
+          "cost": 759600,
+          "taxes": 12
+        }
+      ]
+    },
+    {
+      "active": true,
+      "name": "Hotel Ibis Bogotá Museo",
+      "location": "Tv. 6 #27-85, Bogotá",
+      "description": "Ubicado en el Centro Internacional de Bogotá, este moderno hotel informal se encuentra a 3 minutos a pie del Museo Nacional de Colombia y a 2 km de la estación de telecabina del cerro de Monserrate. Además, se sitúa a 14 km del Aeropuerto Internacional El Dorado Luis Carlos Galán Sarmiento.\nLas habitaciones cálidas con ambiente contemporáneo ofrecen Wi-Fi gratis, TV de pantalla plana y escritorio. Los niños menores de 11 años se hospedan sin cargo adicional con un adulto.\n\nLos servicios incluyen un restobar elegante abierto las 24 horas y una terraza al aire libre. Se ofrecen desayuno y estacionamiento y se aceptan mascotas (todo por un costo adicional).\n\nHora de registro de entrada: 3:00 p.m.\nHora de registro de salida: 12:00 p.m.",
+      "img_url": "https://lh3.googleusercontent.com/p/AF1QipOaTpz1RdTRT_C70HOePZgwdbJZhsngCLVb-q2r=w287-h192-n-k-rw-no-v1",
+      "score": 4,
+      "services": [
+        "WiFi",
+        "Aire Acondicionado",
+        "Desayuno"
+      ],
+      "rooms": [
+        {
+          "active": true,
+          "kind": "single",
+          "location": "Hotel",
+          "cost": 151300,
+          "taxes": 12
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "user_id": "b564db20-911f-4e2f-b65b-f85233767cfe",
+      "hotel_id": 2,
+      "room_type": "excecutive",
+      "cost": 759600,
+      "taxes": 12,
+      "dates": [
+        "2023-12-26T05:00:00.000Z",
+        "2023-12-31T05:00:00.000Z"
+      ],
+      "persons": 1,
+      "client": {
+        "names": "Diana",
+        "lastnames": "Beltran",
+        "birthday": "2000-10-15T05:00:00.000Z",
+        "gender": "F",
+        "doc_type": "CC",
+        "doc_num": "10657894152",
+        "email": "diana@email.com",
+        "phone": "(300) 245-9687"
+      },
+      "emergency_contact": {
+        "fullname": "Fabio Castaneda Beltran",
+        "phone": "(312) 569-8787"
+      },
+      "id": 1
+    },
+    {
+      "user_id": "a79d9069-c32a-4a5d-836b-543cb065eba0",
+      "hotel_id": 3,
+      "room_type": "single",
+      "cost": 151300,
+      "taxes": 12,
+      "dates": [
+        "2023-12-27T07:01:50.389Z",
+        "2023-12-31T05:00:00.000Z"
+      ],
+      "persons": 1,
+      "client": {
+        "names": "Carlos",
+        "lastnames": "Fonseca",
+        "birthday": "1992-05-21T04:00:00.000Z",
+        "gender": "M",
+        "doc_type": "CE",
+        "doc_num": "10923882",
+        "email": "cfonseca@email.com",
+        "phone": "(300) 239-1222"
+      },
+      "emergency_contact": {
+        "fullname": "Jhoana Rojas Sarmiento",
+        "phone": "(355) 234-5656"
+      },
+      "id": 2
+    }
+  ]
+}
